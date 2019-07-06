@@ -69,9 +69,10 @@ check remote
 
 ```git
 git remote --verbose
+git remote -v
 ```
 
-stage a file
+save  a file
 
 ```git
 git add <file>
@@ -101,8 +102,36 @@ to commit with a message
 git commit --message 'my message'
 ```
 
-to delete a commit
+delete a commit and create a new commit
 
 ```git
 git revert <hash commit>
+```
+
+Temporarily stashing some uncommitted changes
+
+```git
+git stash save
+```
+
+Reapplying stashed changes
+
+```git
+git stash pop
+```
+
+## git submodule
+
+create a submodule
+
+```git
+  git submodule add <repository url> 
+```
+
+  a .gitmodules file
+
+```git
+  [submodule "<submodule name>"]
+  path = <folder>
+  url = <repository url>
 ```
