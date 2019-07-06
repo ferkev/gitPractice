@@ -2,31 +2,38 @@
 
 ## git basic commands
 
+  check remote
+
+  ```git
+  git remote --verbose
+  ```
+
   stage a file
 
-```git
+  ```git
   git add <file>
-```
+  ```
 
   remove a file from git directory
 
-```git
+  ```git
   git rm --cached <file>
-```
+  ```
 
   make a commit
 
-```git
+  ```git
   git commit
-```
+  ```
 
   make a commit without delete other message
 
-```git
+  ```git
   git commit --amend --no-edit
-```
+  ```
 
   to commit with a message
-```git
+  
+  ```git
   git commit --message
-```
+  ```
