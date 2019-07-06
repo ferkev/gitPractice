@@ -1,5 +1,32 @@
 # My git commands
 
+## Interact with repository
+
+  donwload and clone a repository
+
+  ```git
+  git clone <url repository>
+  ```
+
+  downloads the new commits from another repository and merges the remote branch into the current branch
+
+  ```git
+  git pull origin <branch>
+  ```
+
+  Fetching changes from a remote without modifying local branches
+
+  ```git
+  git fetch origin <branch>
+  ```
+
+  push to your repository
+  
+  ```git
+  git push origin <branch>
+  ```
+
+
 ## git basic commands
 
   check remote
@@ -35,5 +62,11 @@
   to commit with a message
   
   ```git
-  git commit --message
+  git commit --message 'my message'
+  ```
+
+  to delete a commit
+
+  ```git
+  git revert <hash commit>
   ```
