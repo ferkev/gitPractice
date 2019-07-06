@@ -26,7 +26,6 @@
   git push origin <branch>
   ```
 
-
 ## git basic commands
 
   check remote
