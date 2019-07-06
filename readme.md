@@ -120,8 +120,6 @@ Reapplying stashed changes
 git stash pop
 ```
 
-try a rebase
-
 ## git submodule
 
 create a submodule
