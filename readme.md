@@ -26,6 +26,26 @@
   git push origin <branch>
   ```
 
+## use branch
+
+  add a branch
+
+  ```git
+    git branch <name of the branch>
+  ```
+
+  delete a branch
+
+  ```git
+  git --delete <name of the branch>
+  ```
+
+  merge branch
+
+  ```git
+  git merge <branch name>
+  ```
+  
 ## git basic commands
 
   check remote
