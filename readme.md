@@ -24,6 +24,7 @@
   
   ```git
   git push origin <branch>
+  git push --force <branch>
   ```
 
 ## use branch
@@ -31,19 +32,28 @@
   add a branch
 
   ```git
-    git branch <name of the branch>
+    git branch <branch name>
   ```
 
   delete a branch
 
   ```git
-  git --delete <name of the branch>
+  git branch --delete <branch name>
+  git branch -d <branch name>
+  git branch -D <branch name>
   ```
 
   merge branch
 
   ```git
   git merge <branch name>
+  ```
+
+  change branch and add a branch
+
+  ```git
+  git checkout --branch <branch name>
+  git checkout -b <branch name>
   ```
   
 ## git basic commands
