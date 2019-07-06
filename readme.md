@@ -2,19 +2,31 @@
 
 ## git basic commands
 
+  stage a file
+
 ```git
-  //to stage file
   git add <file>
+```
 
-  //to delete a stagged file
+  remove a file from git directory
+
+```git
   git rm --cached <file>
+```
 
-  //to commit a changement
-  git commit <file>
+  make a commit
 
-  //without message
+```git
+  git commit
+```
+
+  make a commit without delete other message
+
+```git
   git commit --amend --no-edit
+```
 
-  //to commit with a message
+  to commit with a message
+```git
   git commit --message
 ```
