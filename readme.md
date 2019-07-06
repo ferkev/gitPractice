@@ -135,3 +135,11 @@ a .gitmodules file
   path = <folder>
   url = <repository url>
 ```
+
+## Listing  files
+
+ listing files
+
+```git
+git ls-files
+```
