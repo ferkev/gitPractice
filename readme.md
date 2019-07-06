@@ -125,7 +125,7 @@ git stash pop
 create a submodule
 
 ```git
-  git submodule add <repository url> 
+  git submodule add <repository url>
 ```
 
   a .gitmodules file
