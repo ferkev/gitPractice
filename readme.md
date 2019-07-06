@@ -89,10 +89,10 @@ make a commit
 git commit
 ```
 
-make a commit without delete other message
+modify the most recent commit
 
 ```git
-git commit --amend --no-edit
+git commit --amend
 ```
 
 to commit with a message
