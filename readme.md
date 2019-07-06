@@ -72,7 +72,7 @@ git remote --verbose
 git remote -v
 ```
 
-save  a file
+save a file
 
 ```git
 git add <file>
@@ -125,13 +125,13 @@ git stash pop
 create a submodule
 
 ```git
-  git submodule add <repository url>
+git submodule add <repository url>
 ```
 
-  a .gitmodules file
+a .gitmodules file
 
 ```git
-  [submodule "<submodule name>"]
+[submodule "<submodule name>"]
   path = <folder>
   url = <repository url>
 ```
