@@ -27,6 +27,12 @@ git push origin <branch>
 git push --force origin <branch>
 ```
 
+Output: pushing and setting an upstream branch
+
+```git
+git push --set-upstream origin master
+```
+
 ## use branch
 
 add a branch
