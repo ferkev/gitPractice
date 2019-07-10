@@ -63,6 +63,13 @@ git checkout --branch <branch name>
 git checkout -b <branch name>
 ```
 
+display a graph in terminal
+
+```git
+git --graph
+git log --oneline --graph --decorate
+```
+
 ## git basic commands
 
 check remote
