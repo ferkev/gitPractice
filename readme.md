@@ -66,7 +66,7 @@ git checkout -b <branch name>
 display a graph in terminal
 
 ```git
-git --graph
+git log --graph
 git log --oneline --graph --decorate
 ```
 
